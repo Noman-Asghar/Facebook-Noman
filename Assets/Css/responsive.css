@@ -1,0 +1,175 @@
+@media (max-width: 580px) and (min-width: 420px) {
+  /* header responsive */
+
+  .header i {
+    font-size: 25px;
+    padding: 0;
+  }
+  .input-sec i {
+    font-size: 30px;
+  }
+  .input-sec input {
+    display: none;
+  }
+  .main-icons {
+    width: unset;
+  }
+  .main-icons i {
+    padding: 0px 12px;
+  }
+  #block{
+  display: none;
+  }
+  .side-icons img {
+    display: none;
+  }
+
+  /* main content */
+
+  .main-content {
+    flex-direction: column;
+  }
+
+  .side-bar {
+    width: 100%;
+    height: unset;
+    display: none;
+    transition: .5s;
+  }
+  .side{
+    display: block;
+   
+  }
+  .new-feeds {
+    position: unset;
+    width: 100%;
+    order: 2;
+    padding: 10px;
+  }
+  .feeling-icon i {
+    font-size: 18px;
+  }
+  .feeling-icon p {
+    font-size: 12px;
+  }
+  .profile-img img{
+    height: unset;
+}
+.like-sec {
+  margin-left: 85px;
+}
+
+.coment-box input{
+  width: 72%;
+}
+  .messenger {
+    width: 100%;
+    height: unset;
+    order: 1;
+    display: none;
+  }
+  .Show{
+    display: block;
+  }
+}
+
+
+@media (max-width: 420px) and (min-width: 320px) {
+    /* header responsive */
+  .header{
+    padding: 0;
+  }
+    .header i {
+      font-size: 23px;
+      padding: 0px 5px;
+      margin-left: 5px;
+    }
+    .input-sec i {
+      font-size: 30px;
+    }
+    .input-sec input {
+      display: none;
+    }
+    .main-icons {
+      width: unset;
+    }
+    .main-icons i {
+      padding: 0px 7px;
+    }
+    #block{
+      display: none;
+      }
+    .side-icons img {
+      display: none;
+    }
+    .side-icons i{
+        margin: 0px 0px;
+        margin-left: 5px;
+    }
+  
+    /* main content */
+  
+    .main-content {
+      flex-direction: column;
+    }
+  
+    .side-bar {
+      width: 100%;
+      height: unset;
+      display: none;
+    }
+    .side{
+      display: block;
+     
+    }
+    .side-bar p {
+        font-size: 15px;
+
+    }
+    .side-bar i{
+        font-size: 20px;
+    }
+    .new-feeds {
+      position: unset;
+      width: 100%;
+      order: 2;
+      padding: 10px;
+    }
+    .feeling-icon i {
+      font-size: 18px;
+    }
+    .feeling-icon p {
+      font-size: 12px;
+    }
+    .feeling-input input {
+        font-size: 13px;
+    }
+    
+    .profile-info p{
+        font-size: 18px;
+    }
+    .profile-img img{
+        height: unset;
+    }
+    .all-react i{
+        font-size: 20px;
+    }
+    .like-sec {
+      margin-left: 50px;
+    }
+    .coment-box input{
+      width: 60%;
+    }
+    .messenger {
+      width: 100%;
+      height: unset;
+      order: 1;
+      display: none;
+    }
+    .messenger p {
+        font-size: 16px;
+    }
+    .Show{
+      display: block;
+    }
+  }
